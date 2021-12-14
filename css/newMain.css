@@ -26,7 +26,32 @@
 
 }
 
+@media all and (max-width: 1024px){
+	.image-box{
+		width: 90%;
+		column-count: 3;
+	}
+}
 
+@media all and (max-width: 768px){
+	.image-box{
+		width: 100%;
+		column-count: 2;
+	}
+}
+
+@media all and (max-width: 480px){
+	.image-box{
+		column-count: 1;
+	}
+}
+
+@media all and (min-width: 1200px){
+	.image-wrapper:hover{
+	opacity: 1;
+		filter: grayscale(0);
+    }
+}
 
 
 
